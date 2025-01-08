@@ -7,7 +7,7 @@ body, html {
 }
 
 .bgimg {
-  background-image: url('https://www.ncat.edu/news/2020/08/at-signage-smokestack.png');
+  background-image: url('https://se-images-blob.campuslabs.com/communities/4294/coverphotos/44c7966b-0356-4460-9c9f-8779af733908.jpg');
   height: 100%;
   background-position: center;
   background-size: cover;
@@ -19,22 +19,28 @@ body, html {
 
 .topleft {
   position: absolute;
-  top: 0;
+  top: 16px;
   left: 16px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .bottomleft {
   position: absolute;
-  bottom: 0;
+  bottom: 16px;
   left: 16px;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
 }
 
 .middle {
   position: absolute;
-  top: 50%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
 }
 
 hr {
